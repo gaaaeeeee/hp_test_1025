@@ -109,7 +109,7 @@ $(function(){
        var windowHeight = $(window).height();
    if (scroll > elemPos - windowHeight + windowHeight/5){
     $(function(){
-    $('ul.project-wrapper li')
+    $('.project-wrapper .article')
         .each(function(i){
          $(this).delay(300*i).animate({
 					 opacity:1,

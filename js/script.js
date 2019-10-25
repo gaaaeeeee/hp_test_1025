@@ -100,9 +100,9 @@ _window.trigger('scroll');*/
 
 /*projectを1つずつ遅れて表示*/
 $(function(){
-　$('.project-wrapper li').css("opacity","0");
+　$('.project-wrapper .article').css("opacity","0");
     $(window).scroll(function (){
-    $('ul.project-wrapper li').each(function(){
+    $('.project-wrapper .article').each(function(){
 
        var elemPos = $(this).offset().top;
        var scroll = $(window).scrollTop();

@@ -100,7 +100,7 @@ _window.trigger('scroll');*/
 
 /*projectを1つずつ遅れて表示*/
 $(function(){
-　$('ul.project-wrapper li').css("opacity","0");
+　$('.project-wrapper li').css("opacity","0");
     $(window).scroll(function (){
     $('ul.project-wrapper li').each(function(){
 
